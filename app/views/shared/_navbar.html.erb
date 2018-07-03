@@ -7,9 +7,9 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 	<%= link_to "Home", root_path, class: "navbar-wagon-item navbar-wagon-link"%>
-	<%= link_to "Prodotti", products_path, class: "navbar-wagon-item navbar-wagon-link"%>
-	<%= link_to "Azienda", company_path, class: "navbar-wagon-item navbar-wagon-link"%>
-	<%= link_to "Dove Siamo", where_path, class: "navbar-wagon-item navbar-wagon-link" %>
+	<%= link_to t('navbar.products'), products_path, class: "navbar-wagon-item navbar-wagon-link"%>
+	<%= link_to t('navbar.company'), company_path, class: "navbar-wagon-item navbar-wagon-link"%>
+	<%= link_to t('navbar.where'), where_path, class: "navbar-wagon-item navbar-wagon-link" %>
   <%= link_to @language_path do %>
       <i class="fas fa-flag"></i>
   <% end %>

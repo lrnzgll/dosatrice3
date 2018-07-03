@@ -1,33 +1,55 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  h1-title: "Dosing equipment for industries"
+  navbar:
+    products: "Products"
+    company: "Abous us"
+    where: "Our Location"
+  index:
+    h1: "The customer's needs at the center of the design cycle"
+  home:
+    one: "Galli s.n.c. designs, manufactures, and distributes engineered solutions for dosing and packaging of liquids and dense products for the food, chemical and cosmetic industries."
+    two: "Our CNC production line allows for the accurate and reliable manufacturing and assembly of the equipment we sell."
+    three: "We take pride in offering a fully customized solution to our customers, our engineering team can address any question and request you may have."
+    h3-one: "Galli s.n.c."
+    h3-two: "Products"
+    h3-three: "Contacts"
+  products: 
+    one: "Our dosing equipment offers accurate and precise measurement for fluid volumes. Our DV product line covers the volume range of 10-5000 ml (0.2 fl oz - 1.3 gal). Our equipment operates with compressed air and does not require a connection to the electricity grid. As a result our equipment can operate in presence of high level of moisture that would represent an obstacle to other electrical equipment. We can deliver fully integrated solutions for sorting, filling, and packaging of liquid products."
+    two: "In our equipment, the pneumatic section is manufactured in corrosion resistant aluminum, while the part in contact with the customer's product is fully manufactured in high quality stainless steel: this allow for operation in environments that require the highest level of cleanliness. Our machines can be disassembled extremely easily and cleaned with a variety of products, including steam. 
+    Our machines are versatile, precise, easy to use, easy to maintain. By design our products are extremely flexible; they are able to operate with fluids with a very wide range of densities and viscosities. While the machine body is the same for all applications, a choice of different head valves allow to meter different types of fluids. 
+    Our products are designed to be versatile, accurate, and extremely easy to disassemble and service. Our customers are able to perform routine maintenance directly, simply by replacing sealing components that are inexensive and readily available on the market. 
+    Our product line is ideal for accurate and fast dosing of any liquid product."
+    three: "DV series"
+    four: "Galli s.n.c. designs, manufactures, and distributes engineered solutions for dosing and packaging of liquids and dense products for food, chemical and cosmetic industries. Our equipment can handle products with a substantial solid component (solid particles suspended in the liquid phase). 
+    Our products are used in several fields including food, chemical, and cosmetic industries, offering unmatched precision and reliability."
+    five: "IDEAL APPLICATIONS INCLUDE:"
+    six: "Our machines allow for:"
+    seven: "Ideal for precise and fast dosing of any type of liquid product"
+    eight: "Independently operated or as part of a fully integrated packaging system"
+    nine: "Easy to disassemble, clean, and maintain"
+    ten: "Built in high quality stainless steel"
+    model: 'Model'
+    quantity: 'Range'
+    speed: 'Throughput'
+    airusage: 'Compressed air usage'
+    pression: 'Compressed air pressure'
+    application: "Galli S.n.c. dosing equipments are ideal for:"
+    list-one: "FOOD INDUSTRY"
+    list-two: "BAKED PRODUCTS"
+    list-three: "CANNED GOODS"
+    list-four: "DAIRY PRODUCTS"
+    list-five: "COSMETICS"
+    list-six: "CHEMICALS"
+    list-seven: "OIL INDUSTRY"
+    advantages: ""
+    adv-one: "Precise and fast dosing of any type of liquid product"
+    adv-two: "Operating within a synchronized and fully integrated packaging environment"
+    adv-three: "Automatic operation from conveyor belts"
+    adv-four: "Precise dosing of chemical reactants during chemical processes"
+    adv-five: "Automated dosing of hazardous compounds"
+  company:
+    one: "Galli S.n.c. has 3 decades of experience in the metal machining and assembly business. We take pride in the quality of our metal working equipment which include high-throughput high-accuracy CNC machines. Our core competencies include drilling, milling, turning, and grinding manufacturing operations. Design and manufacturing are integrated with top of the line CAD/CAM systems. We are a third-party supplier for our industrial customers that need an accurate and reliable machining shop, but also a direct provider of dosing and packaging solutions for food, chemical, and pharmaceutical industries. Contact us, and we will certainly be able to answer and address all of your technological needs."
+  location:
+    one: ""
+    two: "Galli S.n.c. dosing and packaging solutions for food, chemical, and pharmaceutical industries"
+    three: ""
