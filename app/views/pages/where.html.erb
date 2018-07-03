@@ -1,0 +1,46 @@
+<h1 class="text-center">Azienda Galli s.n.c.</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3 col-xs-12">
+			<div class="justify-address">
+				<p>Via Trenca 3,</p>
+				<p>21040 Caronno Varesino (VA)</p>
+				<p>Italy</p>
+				<p>Tel. & Fax 0331-980064 </p>
+				<p>P. I. 02061560120</p>
+				<p>E-Mail: info@galli-it.com</p>
+			</div>
+		</div>
+		<div class="col-md-9 col-xs-12">
+			<div id="map" class="map_style"></div>
+		</div>
+	</div>
+	<div class="galli_where_descrizione">
+		<p>Galli S.n.c. è specializzata nella produzione di dosatrici e riempitrici volumetriche, ideali per il dosaggio preciso e veloce di qualunque prodotto (liquido, denso e pastoso).
+			I sistemi realizzati possono essere indipendenti o componenti di linee automatizzate.
+			Galli S.n.c assicura la fornitura di dosatrici professionali, che necessitano di manutenzione semplice di facile pulizia.
+		Le dosatrici volumetriche e le dosatrici automatiche sono costruite in acciaio inossidabile.</p>
+	</div>
+	<div class="sintesi">
+		<div class="sintesi-margin">
+			<p>Riempitrici volumetriche produzione dosatrici volumetriche</p>
+			<p>Galli fornitura dosatrici automatiche industriali professionali</p>
+		</div>
+	</div>
+	
+</div>
+<script>
+	function initMap() {
+var myLatLng = {lat: 45.7336, lng: 8.82325};
+var map = new google.maps.Map(document.getElementById('map'), {
+zoom: 18,
+center: myLatLng
+});
+var marker = new google.maps.Marker({
+position: myLatLng,
+map: map,
+title: 'Hello World!'
+});
+}
+</script>
+<%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_API_BROWSER_KEY']}&callback=initMap" %>

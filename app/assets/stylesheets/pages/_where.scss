@@ -1,0 +1,19 @@
+.map_style {
+	width: 100%;
+	height: 600px;
+}
+
+.justify-address p {
+ text-align: center;
+}
+
+.galli_where_descrizione{
+	margin-top: 15px;
+}
+
+
+@media (min-width: 1000px) {
+  .where.container {
+    width: 100%;
+  }
+}
