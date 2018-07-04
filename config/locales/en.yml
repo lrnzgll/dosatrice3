@@ -14,6 +14,7 @@ en:
     h3-two: "Products"
     h3-three: "Contacts"
   products: 
+    title: "Products - Galli s.n.c."
     one: "Our dosing equipment offers accurate and precise measurement for fluid volumes. Our DV product line covers the volume range of 10-5000 ml (0.2 fl oz - 1.3 gal). Our equipment operates with compressed air and does not require a connection to the electricity grid. As a result our equipment can operate in presence of high level of moisture that would represent an obstacle to other electrical equipment. We can deliver fully integrated solutions for sorting, filling, and packaging of liquid products."
     two: "In our equipment, the pneumatic section is manufactured in corrosion resistant aluminum, while the part in contact with the customer's product is fully manufactured in high quality stainless steel: this allow for operation in environments that require the highest level of cleanliness. Our machines can be disassembled extremely easily and cleaned with a variety of products, including steam. 
     Our machines are versatile, precise, easy to use, easy to maintain. By design our products are extremely flexible; they are able to operate with fluids with a very wide range of densities and viscosities. While the machine body is the same for all applications, a choice of different head valves allow to meter different types of fluids. 
@@ -48,8 +49,10 @@ en:
     adv-four: "Precise dosing of chemical reactants during chemical processes"
     adv-five: "Automated dosing of hazardous compounds"
   company:
+    title: "Abous us - Galli s.n.c."
     one: "Galli S.n.c. has 3 decades of experience in the metal machining and assembly business. We take pride in the quality of our metal working equipment which include high-throughput high-accuracy CNC machines. Our core competencies include drilling, milling, turning, and grinding manufacturing operations. Design and manufacturing are integrated with top of the line CAD/CAM systems. We are a third-party supplier for our industrial customers that need an accurate and reliable machining shop, but also a direct provider of dosing and packaging solutions for food, chemical, and pharmaceutical industries. Contact us, and we will certainly be able to answer and address all of your technological needs."
   location:
+    title: "Our Location"
     one: ""
     two: "Galli S.n.c. dosing and packaging solutions for food, chemical, and pharmaceutical industries"
     three: ""

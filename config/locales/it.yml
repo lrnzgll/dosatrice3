@@ -14,6 +14,7 @@ it:
     h3-two: "Prodotti"
     h3-three: "Contattaci"
   products:
+    title: "Prodotti - Galli s.n.c."
     one: "Disponibili in diversi formati, le nostre riempitrici coprono l'intervallo 0-5000 ml per soddisfare ogni esigenza. Il funzionamento è interamente pneumatico e non richiede l'allacciamento alla rete elettrica: risultano quindi particolarmente indicate per operare in ambienti umidi e in presenza di prodotti altamente volatili, dove l'alimentazione elettrica rappresenterebbe un grave pericolo. Siamo inoltre in grado di realizzare macchine riempitrici speciali e linee automatiche di riempimento e confezionamento."
     two: "Se cerchi una azienda che si occupa della produzione e vendita di riempitrici di produzione italiana certificata, scegli la Galli. 
 Utilizziamo alluminio anticorodal e per la parte a contatto con il prodotto acciaio inox, per renderle particolarmente adatte per operare e assicurare un elevato livello di igiene.
@@ -51,8 +52,10 @@ In fase di progettazione si è lavorato per ottenere una macchina versatile, pre
     adv-four: "il dosaggio di precisione di componenti nei processi chimici"
     adv-five: "il trasferimento e il dosaggio di prodotti delicati e pericolosi" 
   company:
+    title: "Azienda - Galli s.n.c."
     one: "La Galli è nel settore della vendita di dosatrici realizzate con avanzate tecniche di fresatura, tornitura e rettifica, nonché lavorazioni meccaniche per asportazione del truciolo con moderni sistemi CAD/CAM e macchine a controllo numerico. L'azienda offre una gamma di riempitrici volumetriche e dosatrici volumetriche per ogni esigenza, progettate, costruite e distribuite in autonomia. Se state cercando una riempitrice volumetrica per il dosaggio di prodotti nel campo alimentare, chimico, cosmetico e farmaceutico Galli possiede il know how per la produzione di una riempitrice volumetrica industriale professionale. Il vasto e attrezzato parco macchine comprendente sia macchine tradizionali che avanzati sistemi CNC consente di operare con estrema precisione e qualità garantendo il rispetto dei tempi di consegna. Si effettuano lavorazioni di fresatura, tornitura, rettifica circolare e piana, nonchè lavorazioni meccaniche per asportazione truciolo in genere, avvalendosi anche di moderni sistemi CAD/CAM e macchine a controllo numerico. Contattateci, e saremo sicuramente in grado di soddisfare le vostre esigenze."
   location:
+    title: "Dove siamo - Galli s.n.c."
     one: "Galli S.n.c. è specializzata nella produzione di dosatrici e riempitrici volumetriche, ideali per il dosaggio preciso e veloce di qualunque prodotto (liquido, denso e pastoso).
       I sistemi realizzati possono essere indipendenti o componenti di linee automatizzate.
       Galli S.n.c assicura la fornitura di dosatrici professionali, che necessitano di manutenzione semplice di facile pulizia.
