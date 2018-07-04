@@ -14,3 +14,13 @@ body {
 	height: 100%;
   	margin: 0;
 }
+
+.home-item-left {
+	display:flex;
+	align-items: center;
+}
+
+.item {
+	margin: 60px;
+	justify-content: space-around;
+}

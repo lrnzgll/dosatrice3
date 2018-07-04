@@ -1,19 +1,30 @@
-<% content_for :title, "Galli s.n.c." %> 
+<% content_for :title, "Galli s.n.c." %>
 <%= render "shared/banner" %>
-<div class="container spaziato">
-	<div class="row">
-		<div class="col-md-4 col-xs-12">
-			<%= cl_image_tag("riempitrice-home-1_nvb9z5.jpg") %>
-			<h3><%= t('home.h3-one') %></h3>
-			<p><%= t('home.one') %></p> 
+<div class="container">
+	<div class="home-item-left">
+		<div class="item">
+			<%= cl_image_tag("riempitrice-home-1_nvb9z5.jpg", width: 500) %>
 		</div>
-		<div class="col-md-4 col-xs-12">
-			<%= cl_image_tag("riempitrice-home-2_kjthyh.jpg") %>
+		<div class="item">
+			<h3><%= t('home.h3-one') %></h3>
+			<p><%= t('home.one') %></p>
+		</div>
+	</div>
+	<div class="home-item-left">
+		<div class="item">
 			<h3><%= t('home.h3-two') %></h3>
 			<p><%= t('home.two') %></p>
 		</div>
-		<div class="col-md-4 col-xs-12">
-			<%= cl_image_tag("riempitrice-home-3_zo3ygc.jpg") %>
+		<div class="item">
+			<%= cl_image_tag("riempitrice-home-2_kjthyh.jpg", width: 500) %>
+		</div>
+	</div>
+	<div class="home-item-left">
+		<div class="item">
+			<%= cl_image_tag("riempitrice-home-3_zo3ygc.jpg", width: 500) %>
+			
+		</div>
+		<div class="item">
 			<h3><%= t('home.h3-three') %></h3>
 			<p><%= t('home.three') %></p>
 		</div>
