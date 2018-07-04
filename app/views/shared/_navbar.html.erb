@@ -1,19 +1,17 @@
 <div class="navbar-wagon">
   <%= cl_image_tag("logo-galli-snc-small_tcwybx.png" , class: "navbar-wagon-brand" )%>
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <%= link_to "Home", root_path, class: "navbar-wagon-item navbar-wagon-link"%>
-    <%= link_to t('navbar.products'), products_path, class: "navbar-wagon-item navbar-wagon-link"%>
-    <%= link_to t('navbar.company'), company_path, class: "navbar-wagon-item navbar-wagon-link"%>
-    <%= link_to t('navbar.where'), where_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <div class="navbar-wagon-item">
-      <div class="dropdown id="navbar-wagon-menu"">
-        <% if I18n.locale == 'it'%> 
-          <%=link_to image_tag(t("flag"), size: "18"), {action: 'change', controller: 'languages'} %> 
-        <% else %>
-          <%=link_to image_tag(t("flag"), size: "18"), {action: 'change', controller: 'languages'} %>
-        <% end %>
-      </div>
-    </div>
-  </div>
+  <nav class="fill">
+    <ul>
+      <li><%= link_to "Home", root_path%></li>
+      <li><%= link_to t('navbar.products'), products_path%></li>
+      <li><%= link_to t('navbar.company'), company_path%></li>
+      <li><%= link_to t('navbar.where'), where_path%></li>
+      <% if I18n.locale == 'it'%>
+      <li><%=link_to image_tag(t("flag"), size: "18"), {action: 'change', controller: 'languages'} %></li>
+      <% else %>
+      <li><%=link_to image_tag(t("flag"), size: "18"), {action: 'change', controller: 'languages'} %></li>
+      <% end %>
+    </ul>
+  </nav>
 </div>
