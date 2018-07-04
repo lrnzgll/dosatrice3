@@ -1,4 +1,5 @@
 it:
+  flag: "english_flag" 
   h1-title: "Dosatrici volumetriche per l'industria"
   navbar:
     products: "Prodotti"
