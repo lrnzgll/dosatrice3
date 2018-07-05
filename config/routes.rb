@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 		get "/company", to: 'companies#show'
 		get "/where", to: 'pages#where'
 		get "/languages", to: 'languages#change'
+		get "/gallery", to: "pages#media"
 	end
 
 # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

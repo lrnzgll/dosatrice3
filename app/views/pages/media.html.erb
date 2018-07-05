@@ -1,0 +1,40 @@
+<% content_for :title do %>
+<%= t('gallery.title') %>
+<% end %>
+<div class="container gallery-container">
+	<p class="page-description text-center">Fluid Layout With Overlay Effect</p>
+	
+	<div class="tz-gallery">
+		<div class="row">
+			<div class="col-sm-12 col-md-4">
+				<a class="lightbox" href="http://res.cloudinary.com/lrnzgll/image/upload/c_limit,q_50,w_1000/v1530802434/Dosatrici-107_hhqgmr.jpg">
+					<img src="http://res.cloudinary.com/lrnzgll/image/upload/c_limit,q_60,w_1500/v1530802434/Dosatrici-107_hhqgmr.jpg" alt="dosatrice-1 galli">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a class="lightbox" href="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_50,w_1000/v1530802409/Dosatrici-101_icppeq.jpg">
+					<img src="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_60,w_1500/v1530802409/Dosatrici-101_icppeq.jpg" alt="dosatrice-2 galli">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a class="lightbox" href="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_50,w_1000/v1530802407/Dosatrici-104_dcoxhz.jpg">
+					<img src="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_50,w_1000/v1530802407/Dosatrici-104_dcoxhz.jpg" alt="dosatrice-3 galli">
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-8">
+				<a class="lightbox" href="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_60,w_1000/v1530802364/dosatrice000_d8heci.jpg">
+					<img src="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_60,w_1000/v1530802364/dosatrice000_d8heci.jpg" alt="dosatrice-4 galli">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a class="lightbox" href="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_50,w_1000/v1530802345/dosatrice131_jiore1.jpg">
+					<img src="http://res.cloudinary.com/lrnzgll/image/upload/c_scale,q_50,w_1000/v1530802345/dosatrice131_jiore1.jpg" alt="dosatrice-5 galli">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+baguetteBox.run('.tz-gallery');
+</script>

@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def where
   end
+
+  def media
+  end
 end
