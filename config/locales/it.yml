@@ -3,8 +3,9 @@ it:
   h1-title: "Dosatrici volumetriche per l'industria"
   navbar:
     products: "Prodotti"
-    company: "Azienda"
+    company: "Chi Siamo"
     where: "Dove Siamo"
+    fairs: "Dove trovarci"
   index:
     h1: "Create per soddisfare ogni esigenza"
   home:
@@ -65,3 +66,5 @@ In fase di progettazione si è lavorato per ottenere una macchina versatile, pre
     three: "Galli fornitura dosatrici automatiche industriali professionali"
   gallery:
     title: "Gallery - Galli s.n.c."
+  blog:
+    title: "Blog - Galli s.n.c."

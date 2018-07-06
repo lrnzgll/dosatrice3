@@ -5,6 +5,7 @@ en:
     products: "Products"
     company: "Abous us"
     where: "Our Location"
+    fairs: "Where you can find us"
   index:
     h1: "The customer's needs at the center of the design cycle"
   home:
@@ -59,3 +60,5 @@ en:
     three: ""
   gallery:
     title: "Gallery - Galli s.n.c."
+  blog:
+    title: "Blog - Galli s.n.c."

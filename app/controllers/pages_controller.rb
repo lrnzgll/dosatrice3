@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def media
   end
+
+  def blog
+  end
 end
