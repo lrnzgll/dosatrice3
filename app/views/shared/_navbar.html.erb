@@ -7,6 +7,7 @@
       <li><%= link_to t('navbar.products'), products_path%></li>
       <li><%= link_to t('navbar.company'), company_path%></li>
       <li><%= link_to t('navbar.where'), where_path%></li>
+      <li><%= link_to "Blog", blog_path%></li>
       <li><%= link_to "Gallery", gallery_path%></li>
       <% if I18n.locale == :it%>
         <li><%=link_to cl_image_tag("english_flag_wv6rof.png", :quality=>10, :width=>18, :crop=>"scale"), {action: 'change', controller: 'languages'}   %> </li>
